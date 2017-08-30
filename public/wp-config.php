@@ -15,15 +15,17 @@
  */
 
 // Setup autoload
-require '/app/vendor/autoload.php';
+require $_SERVER['DOCUMENT_ROOT'].'/../vendor/autoload.php';
 
 // Disable filesystem level changes from WP
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
 
-// Make sure we admin over SSL
-define( 'FORCE_SSL_LOGIN', true );
-define( 'FORCE_SSL_ADMIN', true );
+if (strpos($_SERVER['HTTP_HOST'], 'localhost') === false) {
+	// Make sure we admin over SSL
+	define( 'FORCE_SSL_LOGIN', true );
+	define( 'FORCE_SSL_ADMIN', true );
+}
 
 // HTTPS port is always 80 because SSL is terminated at Heroku router / CloudFlare
 define( 'JETPACK_SIGNATURE__HTTPS_PORT', 80 );
@@ -76,7 +78,7 @@ if ( isset( $_ENV['WP_DB_URL'] ) ) {
 	// ClearDB signs with an invalid CN
 	$_dbflags |= MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT;
 } else {
-	$_dbsettings = parse_url( 'mysql://herokuwp:password@127.0.0.1/herokuwp' );
+	$_dbsettings = parse_url( 'mysql://brewline:brewline1234@localhost/wp_brewline' );
 }
 
 define( 'DB_NAME',              trim( $_dbsettings['path'], '/' ) );

@@ -1,13 +1,13 @@
 {
-    "name": "xyu/heroku-wp",
-    "description": "A template for installing and running WordPress on Heroku",
-    "homepage": "https://github.com/xyu/heroku-wp",
+    "name": "Brewline",
+    "description": "Brewline's site",
+    "homepage": "https://github.com/Brewline/www",
     "license": "MIT",
     "authors": [
         {
-            "name": "Xiao Yu",
-            "email": "me@xyu.io",
-            "homepage": "http://xyu.io",
+            "name": "Pat Newell",
+            "email": "pat@brewline.io",
+            "homepage": "http://brewline.io",
             "role": "Developer"
         }
     ],
@@ -27,7 +27,9 @@
         "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
 
         "predis/predis": "~1.0",
-        "wp-cli/wp-cli": "^1.0"
+        "wp-cli/wp-cli": "^1.0",
+
+        "wpackagist-plugin/coming-soon": "5.0.12"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e958007b896965cfb843f85e5c5132f2",
+    "content-hash": "1bad4082ea8550caba9728c0af090fec",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3158,6 +3158,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
+        },
+        {
+            "name": "wpackagist-plugin/coming-soon",
+            "version": "5.0.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/coming-soon/",
+                "reference": "tags/5.0.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.5.0.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/coming-soon/"
         },
         {
             "name": "wpackagist-plugin/jetpack",

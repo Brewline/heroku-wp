@@ -29,7 +29,8 @@
         "predis/predis": "~1.0",
         "wp-cli/wp-cli": "^1.0",
 
-        "wpackagist-plugin/coming-soon": "5.0.12"
+        "wpackagist-plugin/google-analytics-dashboard-for-wp": "5.1.1.1",
+        "wpackagist-plugin/wordpress-seo": "5.3.3"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",

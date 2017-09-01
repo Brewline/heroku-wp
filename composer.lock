@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bad4082ea8550caba9728c0af090fec",
+    "content-hash": "95354195df0818fba76f3931006f8d94",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3160,16 +3160,16 @@
             "homepage": "https://wordpress.org/plugins/authy-two-factor-authentication/"
         },
         {
-            "name": "wpackagist-plugin/coming-soon",
-            "version": "5.0.12",
+            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+            "version": "5.1.1.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/5.0.12"
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "reference": "tags/5.1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.5.0.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.1.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -3177,7 +3177,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/coming-soon/"
+            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -3258,6 +3258,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "5.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/5.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.5.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         }
     ],
     "packages-dev": [],

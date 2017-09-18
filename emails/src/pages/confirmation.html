@@ -1,0 +1,46 @@
+---
+subject: Confirm your Email Address
+---
+
+{{> header}}
+
+<container class="body-border">
+  <row>
+    <columns>
+      <spacer size="16"></spacer>
+
+      <h1 class="text-center">Welcome to Brewline</h1>
+
+      <p>
+        Please confirm your email address by clicking the button below which best describes you:
+      </p>
+
+      <spacer size="16"></spacer>
+
+      <container>
+        <row class="small-collapse">
+          <columns small="12" large="4">
+            <button class="large expand button-color-1" href="%confirmation_link%#consumer">
+              Consumer
+            </button>
+          </columns>
+
+          <columns small="12" large="4">
+            <button class="large expand button-color-2" href="%confirmation_link%#brewer">
+              Brewer
+            </button>
+          </columns>
+
+          <columns small="12" large="4">
+            <button class="large expand button-color-3" href="%confirmation_link%#investor">
+              Investor
+            </button>
+          </columns>
+        </row>
+      </container>
+
+    </columns>
+  </row>
+</container>
+
+{{> footer}}

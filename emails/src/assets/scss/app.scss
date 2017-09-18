@@ -2,3 +2,77 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+$brewline-color-1: #f57924;
+$brewline-color-2: #2a43a7;
+$brewline-color-3: #78db20;
+
+p.disclaimer {
+	&,
+	.header & { // resolves specificity conflict
+		padding-top: 8px;
+		color: $secondary-color;
+		font-size: 75%;
+	}
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+a img {
+	border: 0;
+}
+
+.container.footer {
+  @extend .container.header;
+}
+
+table.button:first-child:last-child {
+	margin-bottom: 0;
+}
+
+button.button-color-1,
+table.button.button-color-1 table td {
+	background-color: $brewline-color-1;
+	border-color: darken($brewline-color-1, 5%);
+
+	&:hover {
+		background-color: darken($brewline-color-1, 2.5%);
+	}
+}
+
+button.button-color-2,
+table.button.button-color-2 table td {
+	background-color: $brewline-color-2;
+	border-color: darken($brewline-color-2, 5%);
+
+	&:hover {
+		background-color: darken($brewline-color-2, 2.5%);
+	}
+}
+
+button.button-color-3,
+table.button.button-color-3 table td {
+	background-color: $brewline-color-3;
+	border-color: darken($brewline-color-3, 5%);
+
+	&:hover {
+		background-color: darken($brewline-color-3, 2.5%);
+	}
+}
+
+#brewline-logo {
+	height: 50px;
+}
+
+// ----- Foundation Overrides
+.header {
+	p {
+		color: inherit;
+	}
+}

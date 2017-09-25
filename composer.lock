@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c95bfbadc67073810a68440f4a51167a",
+    "content-hash": "ac843f673d53c9dc06da0c758299f615",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -45,7 +45,7 @@
                 "forum": "https://wordpress.org/support/plugin/batcache",
                 "source": "https://github.com/Automattic/batcache"
             },
-            "time": "2016-09-09T18:37:55+00:00"
+            "time": "2016-09-09 18:37:55"
         },
         {
             "name": "composer/ca-bundle",
@@ -3178,6 +3178,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/flamingo",
+            "version": "1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/flamingo/",
+                "reference": "tags/1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/flamingo.1.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/flamingo/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",

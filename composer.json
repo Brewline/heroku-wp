@@ -32,7 +32,8 @@
         "wpackagist-plugin/google-analytics-dashboard-for-wp": "5.1.1.1",
         "wpackagist-plugin/wordpress-seo": "5.3.3",
 
-        "wpackagist-plugin/contact-form-7": "4.9"
+        "wpackagist-plugin/contact-form-7": "4.9",
+        "wpackagist-plugin/flamingo": "1.7"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",

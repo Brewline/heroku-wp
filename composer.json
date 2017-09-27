@@ -33,7 +33,8 @@
         "wpackagist-plugin/wordpress-seo": "5.3.3",
 
         "wpackagist-plugin/contact-form-7": "4.9",
-        "wpackagist-plugin/flamingo": "1.7"
+        "wpackagist-plugin/flamingo": "1.7",
+        "wpackagist-plugin/wpdatatables": "1.2.3"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
